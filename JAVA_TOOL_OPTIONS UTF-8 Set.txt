@@ -1,0 +1,5 @@
+  STM32CubeIDE(Windows용)에서 Code Generation 후 한글 주석문 깨짐 문제관련 설정
+    [Windows 11 에서 시스템 속성 여는법] 설정 → 시스템 → 관련링크 → 고급 시스템 설정
+    시스템 속성 → 고급 → 환경변수 → 시스템변수 → 새로만들기
+      변수이름: JAVA_TOOL_OPTIONS
+      변수값: -Dfile.encoding=UTF-8
