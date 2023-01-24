@@ -1,20 +1,10 @@
 //  [Core > Inc > defines.h]  -------------------------------------------------
 
-  ******************************************************************************
+/*----------------------------------------------------------------------------
   Project :
   Author  : Jaesung Oh
-  
   TEXT Encoding : UTF-8
-  
-  Compiler  : STM32CubeIDE 1.x.x / STM32CubeXx Firmware Package Vx.xx.x
-  MCU type  : STM32
-  crystal   : Mhz
-  CoreClock : Mhz
-  
-  HAL_Driver :
-  LL_Driver  : GPIO, USART, TIM
-  ******************************************************************************
-
+  ----------------------------------------------------------------------------*/
 /* Define to prevent recursive inclusion */
 #ifndef __DEFINES_H
 #define __DEFINES_H
@@ -194,11 +184,19 @@ void USART1_IRQHandler(void)
   * @file           : main.c
   * @brief          : Main program body
   ******************************************************************************
+  Project :
+  Author  : Jaesung Oh
   TEXT Encoding : UTF-8
+  
+  Compiler  : STM32CubeIDE x.x.x / STM32CubeXx Firmware Package Vx.xx.x
+  MCU type  : STM32
+  crystal   : Mhz
+  CoreClock : Mhz
 
-  HAL_Driver : RCC, USB_HOST, DAC, DMA, SPI, FATFS
-  LL_Driver  : TIM, USART, GPIO
-  ----------------------------------------------------------------------------*/
+  HAL_Driver :
+  LL_Driver  : GPIO, USART, TIM
+  ******************************************************************************
+  */
 /* USER CODE END Header */
 // ~ ~ ~
 /* USER CODE BEGIN Includes */
