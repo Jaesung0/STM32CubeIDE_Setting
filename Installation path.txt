@@ -1,0 +1,10 @@
+STM32CubeProgrammer
+설치경로 기본값
+바로가기  변경: Programs\STMicroelectronics\STM32CubeProgrammer
+
+STM32CubeMX
+설치경로 기본값
+바로가기 변경: Programs\STMicroelectronics\STM32CubeMX
+
+STM32CubeIDE 
+설치경로 변경: C:\Program Files\STMicroelectronics\STM32Cube
